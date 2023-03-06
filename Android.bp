@@ -4,12 +4,12 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-cc_library_shared {
-    name: "android.frameworks.stats-V1-ndk_platform",
-    shared_libs: ["android.frameworks.stats-V1-ndk"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
+//cc_library_shared {
+//    name: "android.frameworks.stats-V1-ndk_platform",
+//    shared_libs: ["android.frameworks.stats-V1-ndk"],
+//    system_ext_specific: true,
+//    vendor_available: true,
+//}
 
 cc_library_shared {
     name: "android.hardware.common-V1-ndk_platform",
