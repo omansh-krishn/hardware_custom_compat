@@ -207,12 +207,12 @@
 //    vendor_available: true,
 //}
 
-cc_library_shared {
-    name: "android.hidl.manager@1.0",
-    shared_libs: ["libhidlbase"],
-    system_ext_specific: true,
-    vendor_available: true,
-}
+//cc_library_shared {
+//    name: "android.hidl.manager@1.0",
+//    shared_libs: ["libhidlbase"],
+//    system_ext_specific: true,
+//    vendor_available: true,
+//}
 
 cc_library_shared {
     name: "libavservices_minijail_vendor",
